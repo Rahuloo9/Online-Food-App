@@ -6,16 +6,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.view.View;
 import android.widget.TextView;
-
-
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.rahul009.onlinefoodorder.Models.MianModels;
 import com.rahul009.onlinefoodorder.Models.OrderModels;
 import com.rahul009.onlinefoodorder.R;
-
 import java.util.ArrayList;
 
 public class OrdersAdapters extends RecyclerView.Adapter<OrdersAdapters.viewholder> {
@@ -57,7 +51,7 @@ public class OrdersAdapters extends RecyclerView.Adapter<OrdersAdapters.viewhold
         super(itemView);
       ordersImage =itemView.findViewById(R.id.orderimage);
       orderName=itemView.findViewById(R.id.ordername);
-      prices=itemView.findViewById(R.id.priceorder);
+      prices=itemView.findViewById(R.id.orderprize);
       orderNumber=itemView.findViewById(R.id.ordernumber);
 
     }
